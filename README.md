@@ -11,5 +11,6 @@ pulic string this[string key]</br>
 get{return _dictionary[key]}</br>
 set{_dictionary[key] = value}</br>
 }</br>
-
+- Composition</br>
+For implementing composition we should use the class as a private field and initialize it in the constroctor. 
 
