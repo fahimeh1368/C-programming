@@ -30,3 +30,10 @@ Problems of inheritance:</br>
 4-Internal (Accessible from the same assembly )
 5-Protected Internal (Protected or Internal)
 
+-Upcasting:</br>
+There is not need to conversion </br>
+Shape shape = circle</br>
+
+-Downcasting:</br>
+Circle circle2 = (Circle)shape
+
