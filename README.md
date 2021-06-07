@@ -11,6 +11,15 @@ pulic string this[string key]</br>
 get{return _dictionary[key]}</br>
 set{_dictionary[key] = value}</br>
 }</br>
+
+For code reuse we can use inheritance and composition</br>
+
 - Composition</br>
-For implementing composition we should use the class as a private field and initialize it in the constroctor. 
+For implementing composition we should use the class as a private field and initialize it in the constroctor.(For example: Logger)</br>
+
+Problems of inheritance:</br>
+1- Easily abused by amateur designer
+2- Large hierarchies
+3- Fragility
+4-Tightly coupeling
 
