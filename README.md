@@ -36,4 +36,8 @@ Shape shape = circle</br>
 
 -Downcasting:</br>
 Circle circle2 = (Circle)shape
+If we cast a object to another object that is not the parent calss we will get an error so we can use AS keyboard 
+Car car = obj AS Car  (If it is not possible to cast car is null)
+
+
 
