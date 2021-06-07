@@ -12,7 +12,7 @@ get{return _dictionary[key]}</br>
 set{_dictionary[key] = value}</br>
 }</br>
 
-For code reuse we can use inheritance and composition</br>
+For code reuse we can use inheritance(is a relationship) and composition(has a relationship)</br>
 
 - Composition</br>
 For implementing composition we should use the class as a private field and initialize it in the constroctor.(For example: Logger)</br>
