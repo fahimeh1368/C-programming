@@ -18,8 +18,15 @@ For code reuse we can use inheritance(is a relationship) and composition(has a r
 For implementing composition we should use the class as a private field and initialize it in the constroctor.(For example: Logger)</br>
 
 Problems of inheritance:</br>
-1- Easily abused by amateur designer
-2- Large hierarchies
-3- Fragility
-4-Tightly coupeling
+1- Easily abused by amateur designer</br>
+2- Large hierarchies</br>
+3- Fragility</br>
+4-Tightly coupeling</br>
+
+-Access Modifiers:
+1-Public 
+2-Private
+3-Protected (Accessible from class and derived classes)
+4-Internal (Accessible from the same assembly )
+5-Protected Internal (Protected or Internal)
 
