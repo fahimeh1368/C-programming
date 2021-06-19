@@ -47,7 +47,8 @@ The process of converting a value type instance to an object reference</br>
 Example: object obj = 10 --> convert value type Number to Object type.</br>
 - Unboxing</br>
 Opposite of boxing</br>
-Example: Object obj = 10     -> var number = (int)obj
+Example: Object obj = 10     -> var number = (int)obj</br>
+Using Generic list instead of ArrayList prevent performance penalty(Boxing and Unboxing)</br>
 
 
 
