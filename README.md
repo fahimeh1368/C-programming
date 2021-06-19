@@ -33,6 +33,8 @@ Problems of inheritance:</br>
 -Upcasting:</br>
 There is not need to conversion </br>
 Shape shape = circle</br>
+after Upcasting both objects are refer to the same place</br>
+
 
 -Downcasting:</br>
 Circle circle2 = (Circle)shape
