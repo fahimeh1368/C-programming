@@ -39,7 +39,14 @@ after Upcasting both objects are refer to the same place</br>
 -Downcasting:</br>
 Circle circle2 = (Circle)shape
 If we cast a object to another object that is not the parent calss we will get an error so we can use AS keyboard 
-Car car = obj AS Car  (If it is not possible to cast car is null)
+Car car = obj AS Car  (If it is not possible to cast car is null)</br>
+
+-Reference types are stored in heap and Value types are stored in stack</br>
+-Boxing</br>
+The process of converting a value type instance to an object reference</br>
+Example: object obj = 10 --> convert value type Number to Object type.</br>
+-Unboxing: Opposite of boxing</br>
+Example: Object obj = 10     -> var number = (int)obj
 
 
 
