@@ -51,6 +51,9 @@ Example: Object obj = 10     -> var number = (int)obj</br>
 Using Generic list instead of ArrayList prevent performance penalty(Boxing and Unboxing)</br>
 # Polymorphism
 - Method Overriding
+Modifing the implementation of an inherited method.We can Override the virtual methods of Parent class in the child class.</br>
 
+- Abstract 
+If we have abstract method(which does not have declaration) the class of this method must be abstract.
 
 
