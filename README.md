@@ -54,6 +54,7 @@ Using Generic list instead of ArrayList prevent performance penalty(Boxing and U
 Modifing the implementation of an inherited method.We can Override the virtual methods of Parent class in the child class.</br>
 
 - Abstract: </br>
-If we have abstract method(which does not have declaration) the class of this method must be abstract.
+If we have abstract method(which does not have declaration) the class of this method must be abstract.Abstract method must implemen in override methods in child class.</br>
+Abstract classes can not be instantiated.
 
 
