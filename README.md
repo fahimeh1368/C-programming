@@ -50,11 +50,16 @@ Opposite of boxing</br>
 Example: Object obj = 10     -> var number = (int)obj</br>
 Using Generic list instead of ArrayList prevent performance penalty(Boxing and Unboxing)</br>
 # Polymorphism
+-------------------------------------------------------------------------
 - Method Overriding:</br>
 Modifing the implementation of an inherited method.We can Override the virtual methods of Parent class in the child class.</br>
 
 - Abstract: </br>
 If we have abstract method(which does not have declaration) the class of this method must be abstract.Abstract method must implemen in override methods in child class.</br>
-Abstract classes can not be instantiated.
+Abstract classes can not be instantiated.</br>
+When we want to force other developers to implement the specific design we must use abstract method. For example we want to foce developers to derived a class from the shape to implement the specific draw function we use abstaract method draw in shape.</br>
+- Sealed class:</br>
+There is not possible to derived a class from a sealed class. Using sealed class are faster in runtime because of some optimization. Using of the sealed are not recommende. String in c# is sealed class. With extension method can inherit from string.  
+------------------------------------------------------------------------------------------
 
 
